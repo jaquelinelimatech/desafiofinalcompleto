@@ -1,0 +1,192 @@
+html, body{
+    margin: 5px;
+}
+
+
+#imagem_fundo{
+    background:url("imagem/campo.jpg");
+    height:50%;
+    text-align: center;
+    padding: 80px;
+   
+}
+
+#introducao{
+
+}
+
+#logo{
+    width: 89px;
+    position: absolute;
+    top: 0px;
+    margin-left: 5%;
+    
+}
+
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;   
+}
+li{
+    float: left;
+    padding: 20px 10px 20px 10px;
+}   
+li:hover{
+    background-color: #0fbefd;
+}
+
+#titulo{
+    color: black;
+    padding-top: 20%;
+    font-size: 50px;
+}
+
+
+#subtitulo{
+    color: black;
+    font-size: 40px;
+    text-shadow: 1px 1px black;
+    background-size: cover;
+}
+
+#botao{
+    color:white;
+    border: 1px rgb(233, 233, 233) solid;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+
+p{
+    font-size: 26px;
+    line-height: 30px;
+    margin: 20px;
+}
+
+
+section{
+    padding: 20px;
+    float: left;
+}
+
+.coluna{
+    float:left;
+    padding: 10;
+    margin: 10px;
+    position: relative;
+    width: 32%;
+}
+
+.coluna > img{
+    padding: 0 5px;
+    font-size: 8px;
+    text-align:center;
+    margin: 5px;
+}
+
+.coluna > p{
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 20px;
+}
+.colunadois{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+.carrinho{
+    background-color: #f7f7f7;
+}
+.colunatres{
+    float: left;
+    padding: 0 6%;
+    position: relative;
+    width: 18%;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.tema{
+    width: 80%;
+}
+
+.img{
+    width: 40%;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+h2{
+    margin: 5px;
+}
+
+h4{
+    font-size: large;
+}
+
+.objetivo{
+    float:left;
+    padding: 4%;
+    position: relative;
+    width: 30%;
+}
+
+.objetivo2{
+    float:left;
+    padding: 0;
+    position: relative;
+    width: 30%;
+}
+
+#cor{
+    background-color: blue
+}
+
+.cor2{
+    background-color: aquamarine;
+}
+
+.centralizado{
+    text-align: center;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.esquerda{
+    text-align: left;
+    margin-right: 70%;
+    line-height: 150%;
+    padding: 0px;
+    margin-left: 10%;
+    background:url(imagem/Foto\ de\ Tamanna\ Rumee\ httpswww.pexels.compt-brfotoamassado-amarrotado-papel-trabalho-8823611\ -pexels-tamanna-rumee-8823611.jpg);
+}
+
+.destaque{
+    background-color:#f7f7f7;
+    padding: 20px;
+}
+
+
+
+.sobremim{
+    padding: 10% 0;
+    background-color: #f7f7f7;
+    margin-left: 20px;
+    border-right: 0;
+}
+footer{
+    width: 100%;
+    background-color: #01AAEA;
+    float: left;
+}
