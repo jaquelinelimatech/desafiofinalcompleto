@@ -3,24 +3,30 @@ html, body{
 }
 
 
-#imagem_fundo{
+
+header{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+
+.imagem_fundo{
     background:url("imagem/campo.jpg");
     height:50%;
     text-align: center;
     padding: 80px;
-   
 }
 
-#introducao{
-
-}
 
 #logo{
     width: 89px;
     position: absolute;
     top: 0px;
     margin-left: 5%;
-    
 }
 
 #menu{
@@ -39,12 +45,12 @@ li{
     padding: 20px 10px 20px 10px;
 }   
 li:hover{
-    background-color: #0fbefd;
+    background-color: #0AF68F;
 }
 
 #titulo{
     color: black;
-    padding-top: 20%;
+    padding-top: 10%;
     font-size: 50px;
 }
 
@@ -54,6 +60,7 @@ li:hover{
     font-size: 40px;
     text-shadow: 1px 1px black;
     background-size: cover;
+    padding: 4%;
 }
 
 #botao{
@@ -65,9 +72,9 @@ li:hover{
 
 
 p{
-    font-size: 26px;
+    font-size: 20px;
     line-height: 30px;
-    margin: 20px;
+    margin: 10px;
 }
 
 
@@ -116,6 +123,9 @@ section{
 
 .tema{
     width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
 }
 
 .img{
@@ -138,6 +148,7 @@ h4{
     padding: 4%;
     position: relative;
     width: 30%;
+    text-align: center;
 }
 
 .objetivo2{
@@ -148,7 +159,7 @@ h4{
 }
 
 #cor{
-    background-color: blue
+    background-color: #15EB15
 }
 
 .cor2{
@@ -157,19 +168,50 @@ h4{
 
 .centralizado{
     text-align: center;
+    gap: 10px;
 }
 
 .justificado{
     text-align: justify;
+    gap: 10px;
 }
 
+.desafio{
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    
+}
+
+.desafio img{
+    display: flex;
+    width: 80%;
+    gap: 10px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+}
+
+.desafio p{
+    text-align: justify;
+    padding-bottom: 5px;
+}
+
+#sustentavel img{
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+}
 .esquerda{
     text-align: left;
     margin-right: 70%;
     line-height: 150%;
     padding: 0px;
     margin-left: 10%;
-    background:url(imagem/Foto\ de\ Tamanna\ Rumee\ httpswww.pexels.compt-brfotoamassado-amarrotado-papel-trabalho-8823611\ -pexels-tamanna-rumee-8823611.jpg);
+   background-color: #c5f84f;
 }
 
 .destaque{
@@ -179,14 +221,43 @@ h4{
 
 
 
-.sobremim{
-    padding: 10% 0;
-    background-color: #f7f7f7;
-    margin-left: 20px;
-    border-right: 0;
-}
-footer{
-    width: 100%;
-    background-color: #01AAEA;
+.sobremim img{
     float: left;
+    padding: 5;
+    background-color: #c9c2c231;
+    margin-left: 0px;
+    border: 10px;
+    width: 30%;
+    border-radius: 50%;
+}
+
+.sobremim{
+    width: 100%;
+    padding: 0;
+    margin:100;
+}
+
+
+#rodape{
+    width: 100%;
+    width: 100%;
+    background-color: #aee2cc;
+    float: left;
+    padding: 0;
+    margin:0;
+    border: 0;
+    gap: 10px;
+    
+}
+@media all and (max-width:768px){
+    #menu{
+        visibility: hidden;
+    }
+    .coluna, .colunadois, .colunatres, .objetivo, .objetivo2, .destaque{
+        display: block;
+        width: 80px;
+        padding:0;
+        margin: 10px auto;
+        float:none;
+    }
 }
